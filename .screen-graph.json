@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/BgsHomepage/BgsHomepage.jsx",
+      "label": "BgsHomepage",
+      "routes": [
+        "/*",
+        "/bgs-homepage-u45-420px"
+      ],
+      "dataModelId": "6055:2872",
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/Personal/Personal.jsx",
+      "label": "Personal",
+      "routes": [
+        "/personal-verification-u45-1440px"
+      ],
+      "dataModelId": "6047:3772"
+    },
+    {
+      "id": "src/screens/PersonalInformation/PersonalInformation.jsx",
+      "label": "PersonalInformation",
+      "routes": [
+        "/personal-information-u45-420px"
+      ],
+      "dataModelId": "6047:3335"
+    },
+    {
+      "id": "src/screens/BusinessInformation/BusinessInformation.jsx",
+      "label": "BusinessInformation",
+      "routes": [
+        "/business-information-u45-420px"
+      ],
+      "dataModelId": "6047:4374"
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/BgsHomepage/BgsHomepage.jsx:198:22-to-src/screens/PersonalInformation/PersonalInformation.jsx",
+      "source": "src/screens/BgsHomepage/BgsHomepage.jsx",
+      "target": "src/screens/PersonalInformation/PersonalInformation.jsx",
+      "data": {
+        "viaRoute": "/personal-information-u45-420px",
+        "trigger": {
+          "element": "<Link\n                        className=\"frame-38\"\n                        to=\"/personal-information-u45-420px\"\n                      >\n                        <div className=\"text-wrapper-39\">\n                          Setup your account\n                        </div>\n\n                        <img\n                          className=\"group-12\"\n                          alt=\"Group\"\n                          src=\"https://c.animaapp.com/O3ihmngO/img/group-1000001422-14@2x.png\"\n                        />\n                      </Link>",
+          "line": 198,
+          "endLine": 211,
+          "column": 22,
+          "endColumn": 29,
+          "sourceFile": "src/screens/BgsHomepage/BgsHomepage.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Personal/Personal.jsx:436:14-to-src/screens/PersonalInformation/PersonalInformation.jsx",
+      "source": "src/screens/Personal/Personal.jsx",
+      "target": "src/screens/PersonalInformation/PersonalInformation.jsx",
+      "data": {
+        "viaRoute": "/personal-information-u45-420px",
+        "trigger": {
+          "element": "<Link\n                className=\"frame-62\"\n                style={{\n                  flex: screenWidth < 960 ? \"1\" : undefined,\n                  flexGrow: screenWidth < 960 ? \"1\" : undefined,\n                  width:\n                    screenWidth >= 1440 ||\n                    (screenWidth >= 960 && screenWidth < 1440)\n                      ? \"182px\"\n                      : undefined,\n                }}\n                to=\"/personal-information-u45-420px\"\n              >\n                <div className=\"text-wrapper-63\">Back</div>\n              </Link>",
+          "line": 436,
+          "endLine": 450,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/Personal/Personal.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Personal/Personal.jsx:452:14-to-src/screens/BusinessInformation/BusinessInformation.jsx",
+      "source": "src/screens/Personal/Personal.jsx",
+      "target": "src/screens/BusinessInformation/BusinessInformation.jsx",
+      "data": {
+        "viaRoute": "/business-information-u45-420px",
+        "trigger": {
+          "element": "<Link\n                className=\"frame-63\"\n                style={{\n                  flex: screenWidth < 960 ? \"1\" : undefined,\n                  flexGrow: screenWidth < 960 ? \"1\" : undefined,\n                  width:\n                    screenWidth >= 1440 ||\n                    (screenWidth >= 960 && screenWidth < 1440)\n                      ? \"182px\"\n                      : undefined,\n                }}\n                to=\"/business-information-u45-420px\"\n              >\n                <div className=\"text-wrapper-63\">Continue</div>\n\n                <img\n                  className=\"group-20\"\n                  alt=\"Group\"\n                  src={\n                    screenWidth >= 960 && screenWidth < 1440\n                      ? \"https://c.animaapp.com/O3ihmngO/img/group-1000001422-4@2x.png\"\n                      : screenWidth >= 1440\n                        ? \"https://c.animaapp.com/O3ihmngO/img/group-1000001422-2@2x.png\"\n                        : screenWidth < 960\n                          ? \"https://c.animaapp.com/O3ihmngO/img/group-1000001422-6@2x.png\"\n                          : undefined\n                  }\n                />\n              </Link>",
+          "line": 452,
+          "endLine": 480,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/Personal/Personal.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/PersonalInformation/PersonalInformation.jsx:281:12-to-src/screens/Personal/Personal.jsx",
+      "source": "src/screens/PersonalInformation/PersonalInformation.jsx",
+      "target": "src/screens/Personal/Personal.jsx",
+      "data": {
+        "viaRoute": "/personal-verification-u45-1440px",
+        "trigger": {
+          "element": "<Link className=\"continue\" to=\"/personal-verification-u45-1440px\">\n              <div className=\"text-wrapper-68\">Continue</div>\n\n              <img\n                className=\"group-21\"\n                alt=\"Group\"\n                src={\n                  screenWidth >= 960 && screenWidth < 1440\n                    ? \"https://c.animaapp.com/O3ihmngO/img/group-1000001422-9@2x.png\"\n                    : screenWidth >= 1440\n                      ? \"https://c.animaapp.com/O3ihmngO/img/group-1000001422-8@2x.png\"\n                      : screenWidth < 960\n                        ? \"https://c.animaapp.com/O3ihmngO/img/group-1000001422-3@2x.png\"\n                        : undefined\n                }\n              />\n            </Link>",
+          "line": 281,
+          "endLine": 297,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/PersonalInformation/PersonalInformation.jsx"
+        }
+      }
+    }
+  ]
+}
